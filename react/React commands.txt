@@ -1,0 +1,4 @@
+1. npx create-react-app appname        creates a react app
+2. npm run start(name)                 runs the react app in the(local browser)
+3. npm install                         installs the node modules
+4. sfc                                 stateless function component

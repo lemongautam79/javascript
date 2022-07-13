@@ -1,0 +1,10 @@
+.bodyjastai {
+    margin: 0;
+    padding:  10px;
+    min-height: 50vh;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }

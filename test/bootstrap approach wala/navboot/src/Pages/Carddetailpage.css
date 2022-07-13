@@ -1,0 +1,129 @@
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20 0;
+
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+
+#prodetails .single-pro-details button {
+    background:blue;
+    color: #fff;
+
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+
+}
+
+#product1 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Audiowide;
+}
+
+#product1 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Audiowide;
+}
+
+.pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+img-fluid {
+    /* width: 300px; */
+    padding-right: 10px;
+}
+
+.pro-container {
+    display: flex;
+}
+
+.namess {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 550px) {
+    single-pro-details{font-size: 16px;}
+    #prodetails{
+        display: block;
+    }
+    .row{
+        flex-direction: column-reverse;
+        margin: 50% 0;
+    }
+}
+/* 
+@media (min-width: 551px) {
+    single-pro-details{font-size: 32px;}
+    #prodetails{
+        display: block;
+    }
+    .row{
+        flex-direction: column-reverse;
+        margin: 50% 0;
+    }
+} */
+
+/* before and after */

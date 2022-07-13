@@ -1,0 +1,19 @@
+{
+    "books":[
+        {
+        "title":"The intelligent investor",
+        "image":"./pubilc/images/present1.jpg",
+        "price": 200
+        },
+        {
+                "title":"The subtle art of not giving a fu*k",
+                "image":"./pubilc/images/present2.jpg",
+                "price": 300
+                },
+            {
+                "title":"The subtle art of not giving a fu*k",
+                "image":"./pubilc/images/present2.jpg",
+                "price": 300
+                }
+    ]
+}
